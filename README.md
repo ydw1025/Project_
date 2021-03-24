@@ -3,7 +3,7 @@
 
 ## 0. 파일저장공간 설정 
 - 파일 저장공간을 (C:/data/db)로 설정해야합니다. 
-- 리눅스나 맥의 경우 db_data_read.py 13라인 os.chdir('C:/data/db') 을 저장공간의 주소로 바꿔줘야 합니다
+- 리눅스나 macOS의 경우 db_data_read.py 13라인 os.chdir('C:/data/db') 을 저장공간의 주소로 바꿔줘야 합니다
 --- 
 ## 1. db_config.py
  - postgres 연동을 위해 host, port, database, user, password를 설정해야 합니다
