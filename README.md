@@ -3,7 +3,7 @@
 
 ## 0. 실행환경
 - 파일 저장공간을 (C:/data/db)로 설정해야합니다. 
-- 리눅스나 macOS의 경우 db_data_read.py 13라인 os.chdir('C:/data/db') 을 저장공간의 주소로 바꿔줘야 합니다
+- 리눅스나 macOS의 경우 db_data_read.py 13라인 os.chdir('C:/data/db')을 파일 저장공간의 주소로 바꿔줘야 합니다
 - psycopg2 및 pandas 라이브러리가 필요합니다
 --- 
 ## 1. db_config.py
